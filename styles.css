@@ -9,13 +9,14 @@ header h1 {
     background-color: #4C2F7F;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    padding: 10px;
+    padding: 11px 38px;
+    margin-right: -155%;
 }
 
 body {
     background-color: #342158;
-    max-width: 1400px;
-    color: 3B4268;
+    max-width: 750px;
+    color: #3B4268;
 }
 
 main {
@@ -23,8 +24,30 @@ main {
     text-align: center;
 }
 
+main h1 {
+    font-size: 70px;
+    padding-top: 20px;
+}
+
 .time {
     text-align: left;
+}
+
+.Button {
+    margin: 30px 230px;
+    width: 100px;
+    height: auto;
+    border: 2px solid #3B4268;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#Logo-and-Button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 #information-list {
