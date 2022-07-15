@@ -4,6 +4,34 @@
     font-family: Tahoma, Verdana, sans-serif;
 }
 
-body {
-   color: 3B4268;
+header h1 {
+    color: white;
+    background-color: #4C2F7F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    padding: 10px;
 }
+
+body {
+    background-color: #342158;
+    max-width: 1400px;
+    color: 3B4268;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+.time {
+    text-align: left;
+}
+
+#information-list {
+    list-style-type: none;
+}
+
+span {
+    font-weight: bold;
+}
+
