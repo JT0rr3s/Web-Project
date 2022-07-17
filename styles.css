@@ -13,14 +13,18 @@ header h1 {
     margin-right: -155%;
 }
 
+.phone {
+    height: 860px;
+}
+
 body {
     background-color: #342158;
-    max-width: 750px;
     color: #3B4268;
 }
 
 main {
     background-color: white;
+    max-width: 750px;
     text-align: center;
 }
 
@@ -34,20 +38,50 @@ main h1 {
 }
 
 .Button {
-    margin: 30px 230px;
-    width: 100px;
-    height: auto;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 32px;
+    font-stretch: ultra-condensed;
+    margin: 20px 0px 75px 120px;
     border: 2px solid #3B4268;
     text-align: center;
-    padding: 20px;
+    padding: 24px 50px;
     background-color: white;
     border-radius: 10px;
 }
 
 #Logo-and-Button {
+    margin: 73px 30px 0px 20px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.firstPar {
+    margin: 0px 0px 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    color: #29B8F1; 
+}
+
+.secondPar {
+    margin: 70px 0px 0px 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 42px;
+    line-height: 46pt;    
+}
+
+.thirdPar {
+    margin: 35px 0px 0px 0px;
+    font-family: 'Work Sans', sans-serif;
+    color: #29B8F1;
+    font-size: 38px;
+}
+
+#secondSec {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 #information-list {
