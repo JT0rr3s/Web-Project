@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Tahoma, Verdana, sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 header h1 {
@@ -14,6 +14,7 @@ header h1 {
 }
 
 .phone {
+    margin: auto 10px 0px 0px;
     height: 860px;
 }
 
@@ -23,8 +24,9 @@ body {
 }
 
 main {
-    background-color: white;
+    background-color: #FEFDF7;
     max-width: 750px;
+    max-height: 3000px;
     text-align: center;
 }
 
@@ -40,13 +42,15 @@ main h1 {
 .Button {
     font-family: 'Work Sans', sans-serif;
     font-size: 32px;
-    font-stretch: ultra-condensed;
+    font-stretch: normal;
+    font-weight: 550;
     margin: 20px 0px 75px 120px;
     border: 2px solid #3B4268;
     text-align: center;
     padding: 24px 50px;
-    background-color: white;
+    background-color: #FEFDF7;
     border-radius: 10px;
+    
 }
 
 #Logo-and-Button {
@@ -57,35 +61,120 @@ main h1 {
     flex-wrap: wrap;
 }
 
-.firstPar {
+.first-par {
     margin: 0px 0px 60px;
     font-family: 'Nunito', sans-serif;
     font-size: 50px;
     color: #29B8F1; 
 }
 
-.secondPar {
+.second-par {
     margin: 70px 0px 0px 0px;
     font-family: 'Work Sans', sans-serif;
     font-size: 42px;
-    line-height: 46pt;    
+    line-height: 46pt;
+    font-weight: 800;    
 }
 
-.thirdPar {
+.third-par {
     margin: 35px 0px 0px 0px;
     font-family: 'Work Sans', sans-serif;
     color: #29B8F1;
-    font-size: 38px;
+    font-size: 36px;
+    font-weight: 600;
 }
 
-#secondSec {
+.fourth-par {
+    margin: 51px 0px 0px 0px;
+    font-size: 27px;
+    line-height: 40px;
+}
+
+.fifth-par {
+    margin: 0px 35px 0px 0px;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-stretch: ultra-condensed;
+}
+
+.sixth-par {
+    margin: 110px 0px 0px 38px;
+    text-align: left;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.seventh-par {
+    margin: auto 0px auto 15px;
+    text-align: left;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.eigth-par {
+    text-align: left;
+}
+
+.ninth-par {
+    text-align: right;
+}
+
+.button-two {
+    margin: 100px 205px 78px 175px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    color: #FEFDF7;
+    background-color: #3B4268; 
+    text-align: center;
+    padding: 28px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+#second-section {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
 }
 
+#third-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#fourth-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
 #information-list {
     list-style-type: none;
+    font-size: 30px;
+    font-weight: 800px;
+    font-style: bold;
+    background-color: #FEFCDD;
+    line-height: 80px;
+}
+
+#penguin1 {
+    margin: auto 0px auto 50px;
+    width: 215px;
+}
+
+#penguin2 {
+    margin: auto 0px auto 30px;
+    width: 280px;
+}
+
+#penguin3 {
+    width: 40px;
+}
+
+#penguin4 {
+    width: 40px;
 }
 
 span {
